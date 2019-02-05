@@ -1,0 +1,17 @@
+.bdp-container {
+  width: 100%;
+  height: 0.5vh;
+  background: $blanc;
+  position: fixed;
+  z-index:1000;
+
+    .bdp {
+      height:0.5vh;
+      background: $jaune;
+      width: 0%;
+      }
+
+}
+
+
+

@@ -1,0 +1,30 @@
+@mixin valign-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+@mixin left-align {
+  text-align: left;
+}
+
+@mixin right-align {
+  text-align: right
+}
+
+@mixin center {
+  text-align: center;
+}
+
+@mixin left {
+  float: left !important;
+}
+
+@mixin right {
+  float: right !important;
+}
+
+@mixin texte{
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+}

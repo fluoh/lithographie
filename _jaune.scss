@@ -1,0 +1,30 @@
+svg {
+    width:22vw;
+    position: fixed;
+    top:15vh;
+    
+     @media screen and (max-width: $small-screen-up) {
+           display: none;
+    }
+
+}
+
+
+
+path {
+    stroke: $jaune;
+    stroke-width: 3px;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: path 3s ease-in forwards;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+}
+
+@keyframes path {
+    to {
+        stroke: $jaune;
+        fill: rgba(0, 0, 0, 0.25);
+        stroke-dashoffset: 0;
+    }
+}
