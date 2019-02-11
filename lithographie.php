@@ -11,7 +11,7 @@ if ( !function_exists('get_field') ) return;
 <div class="row">
     <main class="col xl9 l9 m8 s12" id="pagelitho">
         <div class="row">
-            <div id="tilis" class="col s12">
+            <div class="tilis" class="col s12">
                 <h2 id="titrelitho"><?php the_title(); ?></h2>
 
                 <!--    filtres-->
@@ -81,7 +81,6 @@ if ( !function_exists('get_field') ) return;
 
                             <div class="modal-body col xl7 l12 m12 s12" id="gauche">
                                 <div class="modal-header">
-                                    <!--                            <h3 class="titrepage"><?php the_title(); ?></h3>-->
                                 </div>
                                 <img class="imagelitho" src=<?php 
 

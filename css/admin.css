@@ -1,25 +1,11 @@
-#wpadminbar,
-#adminmenu,
-#adminmenuback,
-#adminmenuwrap {
-  background-color: #F8E71C; }
+#wpadminbar, #adminmenu, #adminmenuback, #adminmenuwrap { background-color: #F8E71C; }
 
-#wpcontent {
-  background-color: white; }
+#wpcontent { background-color: white; }
 
-#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
-  background: #35a7c1; }
+#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top { background: #35a7c1; }
 
-.wp-menu-name,
-wp-menu-image dashicons-before dashicons-admin-page,
-#wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon {
-  color: #333; }
+.wp-menu-name, wp-menu-image dashicons-before dashicons-admin-page, #wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon { color: #333; }
 
-#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before, #adminmenu div.wp-menu-image:before {
-  color: #00aac5; }
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before, #adminmenu div.wp-menu-image:before { color: #00aac5; }
 
-#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus {
-  background-color: #d6d4c3;
-  color: #00b9eb; }
-
-/*# sourceMappingURL=admin.css.map */
+#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus { background-color: #d6d4c3; color: #00b9eb; }

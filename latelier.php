@@ -6,56 +6,28 @@
     <h2 id="titreatelier"><?php the_title(); ?></h2>
 
 
+    <div class="col xl8 l8 m8 s12">
 
-<div id="slideratelier" >			
-			<div id="next" alt="Next" title="Next">
-				<div class="arrow-right"></div>
-			</div>
-			<div id="prev" alt="Prev" title="Prev">				
-				<div class="arrow-left"></div>
-			</div>			
-			<div id="slider">
-				<div class="slide">
-					<div class="slide-copy">
-						
-					</div>
-					<div class="img1"></div>
-				</div>
-				
-				<div class="slide">
-					<div class="slide-copy">
-						
-					</div>
-					<div class="img2"></div>
-				</div>
-				
-				<div class="slide">
-					<div class="slide-copy">
-						
-					</div>
-					<div class="img3"></div>
-				</div>
-				
-				<div class="slide">
-					<div class="slide-copy">
-						
-					</div>
-					<div class="img4"></div>
-				</div>
-				
-				<div class="slide">
-					<div class="slide-copy"></div>
-					
-				</div>
-			</div>
-		</div>
+         <!-- Slideshow 4 -->
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/salle-Goverrod-sep.jpg"> 
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/photo-atelier-pierres-4.jpg"> 
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/P5110032-e1549483404617.jpg">
+          </li>
+        </ul>
+      </div>
 
-        
+  </div>
 
 
-
-
-
-
-</main>
-<?php get_footer(); ?>
+        <div class="col xl4 l4 m4 s12">
+            <div id="youtubesidebar"><?php echo do_shortcode('[yourchannel user="La Lithographie"]'); ?></div>
+        </div>
+        </main>
+    <div id="top"><a href="#" class="go-top">Top</a></div>

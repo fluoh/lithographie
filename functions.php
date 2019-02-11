@@ -19,7 +19,7 @@ function ajout_scripts() {
     wp_register_style('stylecss', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('stylecss');
     wp_enqueue_style( 'raleway', "https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900", array(), null );
-      wp_enqueue_style( 'slabo', "https://fonts.googleapis.com/css?family=Slabo+27px", array(), null );
+    wp_enqueue_style( 'slabo', "https://fonts.googleapis.com/css?family=Slabo+27px", array(), null );
     wp_enqueue_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.4.1/css/all.css', array(), null );
 
     if( !is_admin()){
@@ -38,14 +38,25 @@ function ajout_scripts() {
     }
 
 
+
     wp_enqueue_script('isotope', 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js');
     wp_enqueue_script('mon-script', get_template_directory_uri().'/js/mon-script.js', array('jquery'),'',false);
     wp_enqueue_script('progressbar', get_template_directory_uri().'/js/progressbar.js');
     wp_enqueue_script('modal', get_template_directory_uri().'/js/modal.min.js');
-    wp_enqueue_script('cards', get_template_directory_uri().'/js/cards.js');
+
+    function cards_formations() {
+        if (is_formations( ) )	{ // permet de charger les scripts cards ci-dessous UNIQUEMENT sur la page formations
+            wp_enqueue_script('cards', '/js/cards.js');
+        }
+    }
+
+
+
+    wp_enqueue_script('responsiveslider', get_template_directory_uri().'/js/responsiveslides.min.js');
+
 
 }
-add_action('wp_enqueue_scripts','ajout_scripts','slider_home');
+add_action('wp_enqueue_scripts','ajout_scripts','slider_home', 'cards_formations');
 
 
 
@@ -91,6 +102,8 @@ function header_widgets_init() {
 }
 
 add_action( 'widgets_init', 'header_widgets_init' );
+
+
 
 
 
