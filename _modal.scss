@@ -38,27 +38,25 @@
 
 .modal-content {
     position: relative;
-    background-color: $jaune;
     border-radius: 25px;
     background-clip: padding-box;
     outline: none;
     padding: 0px !important;
     width:60vw !important;
-
+    background-color: $jaune;
     @media screen and (max-width: $small-screen-up) {
         width:100vw !important;
 
     }
 
     #gauche{
-        background-color: $blanc;
+        background-color: $jaune;
     }
 
     #droite{
-
+        background-color: $jaune;
 
         ul{
-            margin-top:15vh;
 
             li{
 
@@ -76,6 +74,16 @@
                     margin-top: 1vh;
                     font-size: 0.9em;
                     font-weight: 400;
+
+                    a{
+                        color: $gris;
+
+
+                        &:hover {
+                            border-bottom: solid 1px $gris;
+
+                        }
+                    }
                 }
                 h3{
                     font-weight: 700;
@@ -107,14 +115,7 @@
     }
 }
 
-.modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5;
-    min-height: 16.42857143px;
-    .close {
-        margin-top: -2px;
-    }
-}
+
 
 .modal-title {
     margin: 0;
@@ -125,9 +126,11 @@
     position: relative;
     padding: 20px;
 
-    .imagelitho{
+    .image{
         width:100%;
         height: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 }
 

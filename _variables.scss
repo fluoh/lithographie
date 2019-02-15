@@ -1,7 +1,6 @@
 // Variables Couleurs  
 $gris: #484848;
 $jaune: #F8E71C;
-$bleu:#35a6c4;
 $noir: black;
 $orange:#f44336;
 $blanc: white;
@@ -31,19 +30,6 @@ $num-cols: 12 !default;
 $gutter-width: 1.5rem !default;
 $element-top-margin: $gutter-width/3 !default;
 $element-bottom-margin: ($gutter-width*2)/3 !default;
-
-
-
-// 4. Cards
-// ==========================================================================
-
-$card-padding: 24px !default;
-$card-bg-color: #fff !default;
-$card-link-color: $jaune;
-$card-link-color-light: $noir;
-
-
-
 
 // 15. Photo Slider
 // ==========================================================================

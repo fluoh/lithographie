@@ -5,12 +5,12 @@
 
 <main class="col xl9 l9 m8 s12" id="pageblog">
     <h2 id="titreactualite"><?php the_title(); ?></h2>
-    <img id="aviateur" src="https://www.alain-menegon.fr/wp-content/uploads/2019/01/5.jpg"> 
 
     <div class="blogone">
 
 
 
+<!--
         <div class="articles col xl9 l9 m9 s12">
             <?php
             $recentPosts = new WP_Query();
@@ -33,17 +33,15 @@
             <?php endwhile; ?>
 
         </div>
+-->
 
-        <div class="col s3 sidebarfacebook"><?php if ( is_active_sidebar( 'new-widget-area' ) ) : ?>
-            <div id="header-widget-area" class="nwa-header-widget widget-area" role="complementary">
-                <?php dynamic_sidebar( 'new-widget-area' ); ?>
-            </div>
-            <?php endif; ?>
-            <!-- fin nouvelle widget area --></div>
+      <div class="col xl12 l12 m12 s12">
+            <div><?php echo do_shortcode('[custom-facebook-feed]'); ?></div>
+        </div>
     </div>
 
 </main>
 
-<?php get_footer();?>
+
 
 

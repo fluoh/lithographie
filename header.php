@@ -15,7 +15,7 @@
             <div class="bdp" id="barre"></div>
         </div>
         <div class="row">
-            <header class="col xl3 l3 m4 s12">
+            <header class="col xl3 l3 m12 s12">
 
                 <div class="tog-menu">
                     <a href="" class="toggle-menu"><span></span></a>

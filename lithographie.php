@@ -9,7 +9,7 @@ if ( !function_exists('get_field') ) return;
 ?>
 
 <div class="row">
-    <main class="col xl9 l9 m8 s12" id="pagelitho">
+    <main class="col xl9 l9 m12 s12" id="pagelitho">
         <div class="row">
             <div class="tilis" class="col s12">
                 <h2 id="titrelitho"><?php the_title(); ?></h2>
@@ -47,7 +47,7 @@ if ( !function_exists('get_field') ) return;
             }
 
             ?> 
-            <div class="<?php echo $termsString; ?> item col xl3 l4 m12 s12"> 
+            <div class="<?php echo $termsString; ?> item col xl3 l4 m6 s12">
                 <div class="itemlitho">
                                             <img class="imagelitho" src=<?php 
 
@@ -79,10 +79,8 @@ if ( !function_exists('get_field') ) return;
                     <div class="modal-dialog">
                         <div class="modal-content col s12">
 
-                            <div class="modal-body col xl7 l12 m12 s12" id="gauche">
-                                <div class="modal-header">
-                                </div>
-                                <img class="imagelitho" src=<?php 
+                            <div class="modal-body col xl7 l7 m12 s12" id="gauche">
+                                <img class="image" src=<?php 
 
                                      $image = get_field('image');
                                      $size = 'medium_large'; // (thumbnail, medium, large, full or custom size)
@@ -96,7 +94,7 @@ if ( !function_exists('get_field') ) return;
                                      ?>
 
                                      </div>
-                                <div class="modal-body col xl5 l&é m12 s12" id="droite">
+                                <div class="modal-body col xl5 l5 m12 s12" id="droite">
                                     <ul>
                                         <li><h3><?php the_title(); ?></h3></li>
                                         <li>Taille: <p><?php the_field('taille'); ?></p></li>

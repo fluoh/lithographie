@@ -3,10 +3,10 @@
 ?>
 
 
-<main class="col xl9 l9 m8 s12" id="biographie">
+<main class="col xl9 l9 m12 s12" id="biographie">
     <h2 id="titrebiographie"><?php the_title(); ?></h2>
 
-                    <img id="elephant" src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/2-min.jpg">
+                    <img id="elephant" src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/elephant-min.jpg">
         
         <div id="cadre" class="container">
             <?php

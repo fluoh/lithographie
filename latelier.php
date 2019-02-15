@@ -2,32 +2,57 @@
 //Template Name: l'atelier
 ?>
 
-<main class="col xl9 l9 m8 s12" id="pageatelier">
+<main class="col xl9 l9 m12 s12" id="pageatelier">
     <h2 id="titreatelier"><?php the_title(); ?></h2>
 
 
-    <div class="col xl8 l8 m8 s12">
+    <div class="col xl8 l6 m12 s12">
 
          <!-- Slideshow 4 -->
       <div class="callbacks_container">
         <ul class="rslides" id="slider4">
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/salle-Goverrod-sep.jpg"> 
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier1-min-300x450.jpg"> 
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/photo-atelier-pierres-4.jpg"> 
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier2-min-300x450.jpg"> 
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/P5110032-e1549483404617.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier3-min-300x450.jpg">
+            <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier4-min-300x450.jpg">
           </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier5-min-300x450.jpg">
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier6-min-300x450.jpg">
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier7-min-300x450.jpg">
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier8-min-300x450.jpg">
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier9-min-300x200.jpg">
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier10-min-300x200.jpg">
+          </li>
+          <li>
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier11-min-300x200.jpg
+">
+          </li>
+      
         </ul>
       </div>
 
   </div>
 
 
-        <div class="col xl4 l4 m4 s12">
-            <div id="youtubesidebar"><?php echo do_shortcode('[yourchannel user="La Lithographie"]'); ?></div>
+        <div class="col xl4 l6 m12 s12">
+            <?php echo do_shortcode('[yourchannel user="La Lithographie"]'); ?>
         </div>
         </main>
     <div id="top"><a href="#" class="go-top">Top</a></div>

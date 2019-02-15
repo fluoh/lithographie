@@ -27,13 +27,13 @@ function ajout_scripts() {
         wp_enqueue_script('jquery');
     } 
 
-    wp_enqueue_script( 'materializejs','https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js', array(), null );
+//    wp_enqueue_script( 'materializejs','https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js', array(), null );
 
 
     // chargement de script sur home uniquement
-    function slider_home() {
+    function fullscreenslider_home() {
         if (is_home( ) )	{ // permet de charger les scripts slider ci-dessous UNIQUEMENT sur la HOME page
-            wp_enqueue_script('slider', '/js/slider.js');
+            wp_enqueue_script('fullscreenslider', 'js/fullscreenslider.min.js');
         }
     }
 
@@ -43,20 +43,11 @@ function ajout_scripts() {
     wp_enqueue_script('mon-script', get_template_directory_uri().'/js/mon-script.js', array('jquery'),'',false);
     wp_enqueue_script('progressbar', get_template_directory_uri().'/js/progressbar.js');
     wp_enqueue_script('modal', get_template_directory_uri().'/js/modal.min.js');
-
-    function cards_formations() {
-        if (is_formations( ) )	{ // permet de charger les scripts cards ci-dessous UNIQUEMENT sur la page formations
-            wp_enqueue_script('cards', '/js/cards.js');
-        }
-    }
-
-
-
-    wp_enqueue_script('responsiveslider', get_template_directory_uri().'/js/responsiveslides.min.js');
+    wp_enqueue_script('responsiveslides', get_template_directory_uri().'/js/responsiveslides.min.js');
 
 
 }
-add_action('wp_enqueue_scripts','ajout_scripts','slider_home', 'cards_formations');
+add_action('wp_enqueue_scripts','ajout_scripts','fullscreenslider_home');
 
 
 
@@ -106,6 +97,6 @@ add_action( 'widgets_init', 'header_widgets_init' );
 
 
 
-
+add_image_size( 'medium', 600, 0, true);
 add_image_size( 'medium', 600, 0, true);
 add_image_size( 'medium_large', 768, 0, true);

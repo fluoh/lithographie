@@ -7,14 +7,6 @@ $(document).on('click', '.toggle-menu', function(){
 
 
 
-
-$(document).ready(function(){
-    $('.slider').slider({ interval:2000});
-});
-
-
-
-
 setTimeout(function() {
 
     var $container = $('#isotope-list'); //The ID for the list with all the blog posts
@@ -51,7 +43,7 @@ setTimeout(function() {
 //slideratelier
 
 
-$(function () {
+$( document ).ready(function() {
 
     // Slideshow 4
     $("#slider4").responsiveSlides({

@@ -20,7 +20,6 @@
 
     <div class="col xl6  offset-xl3 l6  m12  s12"><?php echo do_shortcode( '[contact-form-7 id="214" title="Contact"]' ); ?></div>
 
-
     
 
 

@@ -49,7 +49,23 @@
   margin-bottom: 50px;
   position: relative;
   float: left;
-  width: 30vw;
+  width: 50%;
+  z-index: 1;
+
+  @media screen and (max-width: $small-screen-up) {
+    width: 100%;
+
+  }
+
+  @media screen and (max-width: $medium-screen-up) {
+    width: 100%;
+
+  }
+
+  @media screen and (max-width: $large-screen-up) {
+    width: 100%;
+
+  }
 }
 
 .callbacks {
