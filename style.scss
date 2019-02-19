@@ -168,11 +168,11 @@ header {
             display: inline-grid;
             padding-left: 4vw;
             margin-top: 25vh;
-            
-             @media screen and (max-width: $large-screen-up) {
-                      margin-top: 20vh;
 
-                }
+            @media screen and (max-width: $large-screen-up) {
+                margin-top: 20vh;
+
+            }
 
             @media screen and (max-width: $small-screen-up) {
                 background-color: $blanc;
@@ -501,165 +501,13 @@ main {
 
 
 //pageblog
-#aviateur {
-    position: absolute;
-    right: 1vh;
-    z-index: -1;
-}
-
-
-.blogone {
-
-
-    h1 {
-        margin-top: 15vh;
-    }
-    .articles {
-        .blogarticles {
-            //            border-bottom: 2px solid $jaune;
-            h2 {
-                a {
-                    font-family: 'Raleway', sans-serif;
-                }
-            }
-
-            p {
-                @include texte;
-
-                a {
-                    color: $gris;
-                    font-family: 'Raleway', sans-serif;
-                    &:hover {
-                        color: $jaune;
-
-                    }
-                }
-
-                ul {
-                    li {
-                        @include texte;
-                    }
-
-                }
-            }
-        }
-
-        ul {
-
-            li {
-                @include texte;
-            }
-
-            li {
-                .post-categories {
-                    padding: 0px !important;
-                    font-family: 'Raleway', sans-serif;
-
-                    li {
-                        a {
-                            color: $gris;
-                            @include texte;
-
-                            &:hover {
-                                color: $jaune;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-
+#pageblog{
 
 }
-
-a {
-    color: $gris;
-    text-decoration: none;
-}
-
 
 
 //page single affiche l'article
-.post {
-    .post-title {}
 
-    .post-info {
-        a {
-            color: $gris;
-        }
-    }
-
-    .post-content {
-        p {}
-    }
-
-    .post-comments {
-
-        .comment-respond {
-            .comment-reply-title {
-                small {
-                    a {}
-                }
-
-            }
-        }
-
-        .comment-reply-title {
-            small {
-
-                a {}
-            }
-        }
-
-        .comment-form {
-            .comment-notes {
-
-                #email-notes {}
-                .required {}
-            }
-        }
-
-        .comment-form-comment {
-            label {}
-
-            textarea {}
-        }
-
-        .comment-form-author {
-            label {
-
-                span {}
-            }
-
-            input {}
-        }
-
-        .comment-form-email {
-            label {
-
-                span {}
-            }
-
-            input {}
-        }
-
-        .comment-form-url {
-            label {}
-
-            input {}
-        }
-
-        .form-submit {
-            input {}
-
-            input {}
-
-            input {}
-        }
-    }
-}
 
 
 //page atelier
@@ -767,12 +615,12 @@ label {}
 
 
 .wpcf7-submit {
-   width: 15%;
-    
-     @media screen and (max-width: $small-screen-up) {
-            width: 30%;
+    width: 15%;
+
+    @media screen and (max-width: $small-screen-up) {
+        width: 30%;
     }
-         
+
 }
 
 input,
@@ -799,7 +647,7 @@ footer {
             position: relative;
             left: 2vw;
 
-           
+
 
             li {
 
@@ -874,11 +722,37 @@ footer {
 }
 
 
+//page mentions
+
+#pagementions{
+    h3{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    p{
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4em;
+        letter-spacing: 0.05em;
+
+        a{
+            color:#d0c567;
+
+            &:hover {
+                text-decoration: underline;
+
+            }
+        }
+    }
+}
+
 /* Start: Recommended Isotope styles */
 
 /**** Isotope Filtering ****/
 #isotope-list{
-    
+
 }
 
 .item {

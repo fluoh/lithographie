@@ -12,36 +12,36 @@
       <div class="callbacks_container">
         <ul class="rslides" id="slider4">
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier1-min-300x450.jpg"> 
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier1-min-768x1152.jpg"> 
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier2-min-300x450.jpg"> 
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier2-min-768x1152.jpg"> 
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier3-min-300x450.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier3-min-768x1152.jpg">
             <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier4-min-300x450.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier4-min-768x1152.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier5-min-300x450.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier5-min-768x1152.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier6-min-300x450.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier6-min-768x1152.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier7-min-300x450.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier7-min-768x1152.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier8-min-300x450.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier8-min-768x1152.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier9-min-300x200.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier9-min-768x512.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier10-min-300x200.jpg">
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier10-min-768x512.jpg">
           </li>
           <li>
-            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier11-min-300x200.jpg
+            <img src="https://www.alain-menegon.fr/wp-content/uploads/2019/02/Atelier11-min-768x512.jpg
 ">
           </li>
       
