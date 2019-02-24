@@ -350,20 +350,18 @@ main {
     }
 
     #cadre {
-
-
         height: auto;
         line-height: 1.4em;
         display: inline-block;
 
-        img {
-            max-width: 100%;
-            height: auto;
-
+        .biopic{
+            width: 100%;
         }
 
-        p {
-            @include texte;
+        article{
+            p {
+                @include texte;
+            }
         }
     }
 }

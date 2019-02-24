@@ -398,8 +398,8 @@ main { margin-top: 20vh; }
 
 #biographie #elephant { position: absolute; Z-INDEX: -1; top: 0; right: 0; opacity: 0.3; }
 #biographie #cadre { height: auto; line-height: 1.4em; display: inline-block; }
-#biographie #cadre img { max-width: 100%; height: auto; }
-#biographie #cadre p { font-family: 'Raleway', sans-serif; line-height: 1.4em; letter-spacing: 0.05em; }
+#biographie #cadre .biopic { width: 100%; }
+#biographie #cadre article p { font-family: 'Raleway', sans-serif; line-height: 1.4em; letter-spacing: 0.05em; }
 
 #pagelitho { overflow-y: visible; height: -webkit-max-content; height: -moz-max-content; height: max-content; }
 #pagelitho .tilis { background-color: white; z-index: 2; position: relative; }
